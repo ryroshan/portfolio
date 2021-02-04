@@ -4,6 +4,11 @@ import react from '../../assets/icons/react.svg'
 const languages = [
     {
         icon:react,
+        name:'Javascript',
+        level: '85'
+    },
+    {
+        icon:react,
         name: 'Typescript',
         level: '65'
     },
