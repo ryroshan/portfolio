@@ -44,7 +44,7 @@ const Sidebar = () => {
                 </div>
             </a>
             <figure className="sidebar__social-icons my-2">
-                <a href="https://www.facebook.com/roshanros13/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
+                <a href="https://www.linkedin.com/in/roshan-yadav-a99392116/" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" className="sidebar__icon mr-3" /></a>
                 <a href="https://www.instagram.com/__r_o__s_h_a__n__/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" className="sidebar__icon" /></a>
             </figure>
             <div className="sidebar__contact">

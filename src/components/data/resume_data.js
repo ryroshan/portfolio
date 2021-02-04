@@ -31,17 +31,8 @@ const languages = [
         icon: react,
         name: 'Redux',
         level: '75'
-    },
-    {
-        icon: react,
-        name: 'Material UI',
-        level: 74,
-    },
-    {
-        icon: react,
-        name: 'Bootstrap',
-        level: '80'
     }
+    
 ]
 
 const tools = [

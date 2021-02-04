@@ -43,7 +43,7 @@ const Resume = () => {
                             Computer Science Enginnering
                         </h5>
                         <p className="resume-card__name" style={{paddingLeft:'10px'}}>
-                            Roorkee Institute of Technology, Roorkee, Uttarakhand (2014-2018)
+                            Roorkee Institute of Technology, Roorkee Uttarakhand <span style={{color:'#000d00'}}>(2014-2018) </span>
                         </p>
                         {/* <p className="resume-card__details">I am currently persuing B.tech in Computer Science Engineering from Academy of Technology</p> */}
                     </div>
@@ -57,10 +57,11 @@ const Resume = () => {
                             Full time
                         </h5>
                         <p className="resume-card__name" style={{paddingLeft:'10px'}}>
-                            WIPRO (NOV / 2018 - Present)
+                            Wipro (Nov / 2018 - Present)
                         </p>
+                       
                         {/* <p className="resume-card__details" style={{paddingLeft:'10px'}}>I work as a developer</p> */}
-                    </div>
+                    </div> 
                 </div>
             </div>
 
