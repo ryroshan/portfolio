@@ -39,33 +39,33 @@ const Resume = () => {
                         Education
                     </h4>
                     <div className="resume-card__body">
-                        <h5 className="resume-card__title">
+                        <h5 className="resume-card__title" style={{paddingLeft:'10px'}}>
                             Computer Science Enginnering
                         </h5>
-                        <p className="resume-card__name">
+                        <p className="resume-card__name" style={{paddingLeft:'10px'}}>
                             Roorkee Institute of Technology, Roorkee, Uttarakhand (2014-2018)
                         </p>
                         {/* <p className="resume-card__details">I am currently persuing B.tech in Computer Science Engineering from Academy of Technology</p> */}
                     </div>
                 </div>
                 <div className="col-lg-6 resume-card" >
-                    <h4 className="resume-card__heading">
+                    <h4 className="resume-card__heading" >
                           Experience
                     </h4>
                     <div className="resume-card__body">
-                        <h5 className="resume-card__title">
+                        <h5 className="resume-card__title" style={{paddingLeft:'10px'}}>
                             Full time
                         </h5>
-                        <p className="resume-card__name">
+                        <p className="resume-card__name" style={{paddingLeft:'10px'}}>
                             WIPRO (NOV / 2018 - Present)
                         </p>
-                        <p className="resume-card__details">I work as a developer</p>
+                        {/* <p className="resume-card__details" style={{paddingLeft:'10px'}}>I work as a developer</p> */}
                     </div>
                 </div>
             </div>
 
             <div className="row">
-                <div className="col-lg-6 resume-languages">
+                <div className="col-lg-6 resume-languages" style={{paddingTop:'10px'}}>
                     <h5 className="reume-language__heading">
                         Language and Framework
                     </h5>
@@ -77,7 +77,7 @@ const Resume = () => {
                         }
                     </div>
                 </div>
-                <div className="col-lg-6 resume-languages">
+                <div className="col-lg-6 resume-languages" style={{paddingTop:'10px'}}>
                     <h5 className="reume-language__heading">
                         Tools and Softwares
                     </h5>

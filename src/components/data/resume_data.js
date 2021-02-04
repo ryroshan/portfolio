@@ -2,11 +2,15 @@ import react from '../../assets/icons/react.svg'
 
 
 const languages = [
-    
+    {
+        icon:react,
+        name: 'Typescript',
+        level: '65'
+    },
     {
         icon: react,
         name: 'MongoDB',
-        level: '60'
+        level: '70'
     },
     {
         icon: react,
@@ -16,17 +20,17 @@ const languages = [
     {
         icon: react,
         name: 'react',
-        level: '70'
+        level: '85'
     },
     {
         icon: react,
         name: 'Redux',
-        level: '60'
+        level: '75'
     },
     {
         icon: react,
         name: 'Material UI',
-        level: '60'
+        level: 74,
     },
     {
         icon: react,
@@ -36,6 +40,7 @@ const languages = [
 ]
 
 const tools = [
+    
     {
         icon: react,
         name: 'VScode',
@@ -44,7 +49,7 @@ const tools = [
     {
         icon: react,
         name: 'git',
-        level: '45'
+        level: '75'
     },
     {
         icon: react,

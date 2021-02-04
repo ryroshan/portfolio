@@ -27,7 +27,7 @@ const skills = [
     {
         icon: algo,
         title: "Competitive Coder",
-        about: "a daily problem solver in HackerRank and Leetcode"
+        about: "a daily problem solver in HackerRank and "
     }
 ]
 

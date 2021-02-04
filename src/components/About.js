@@ -10,17 +10,17 @@ const skills = [
     {
         icon: computer,
         title: "Frontend Development",
-        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js"
+        about: "I can build a beautiful and scalable SPA using HTML, CSS and React.js and "
     },
     {
         icon: repair,
         title: "Backend  Development",
-        about: "handle database, server, api using and SQLlite",
+        about: "handle database, server, api using and mongoDB",
     },
     {
         icon: api,
         title: "API Development",
-        about: "I can develop robust REST API using django-rest-api "
+        about: "I can develop robust REST API using express-rest-api "
     },
     {
         icon: algo,
@@ -56,11 +56,11 @@ const About = () => {
             animate="visible"
             exit="exit"
         >
-            <h6 className="about__intro">
+            <h6 className="about__intro" style={{padding:'15px 20px' , letterSpacing: 0.8, font:'caption'}}>
                 I describe myself as someone who's persistant, a quick learner and loves problem solving by using simple and scalable solutions.
             </h6>
             <div className="container about__container">
-                <h6 className="about__heading">What I offer</h6>
+                <h6 className="about__heading" style={{padding:'10px', background:'grey', fontWeight:'bold'}}>What I offer</h6>
                 <div className="row">
                     {
                         skills.map(skill =>
